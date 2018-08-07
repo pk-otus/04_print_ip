@@ -76,6 +76,5 @@ int main(int, char *[])
 	Print(std::list<char>{ 6, 7, 8, 9, 10});
 	std::cout << std::endl;
 
-	getchar();
 	return 0;
 }

@@ -8,7 +8,7 @@ endif()
 
 configure_file(version.h.in ${PROJECT_SOURCE_DIR}/version.h)
 
-add_executable(print_ip print_ip.cpp)
+add_executable(print_ip main.cpp)
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
 	set_target_properties(print_ip PROPERTIES
